@@ -1,23 +1,20 @@
-# Getting Started with Create React App
+# Responsive Grid System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Task** - So the task is to make a Responsive Grid System using image and representing its 2D
+indexing text over it. Make sure it’s device independent and works for all Screen Types
+including Portrait and Landscape. It must be compiled on Mobile Device. Users can change
+device Orientation at runtime.
 
-## Available Scripts
+## Technology - Platform 
+JS Game Framework (Pixijs + React JS)
 
 In the project directory, you can run:
-
 ### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -29,42 +26,20 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Orientation
+Portrait and Landscape
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## About Game 
+Responsive grid system which covers the whole screen with images and text
+over it. For example, we are on portrait mode and we have 1x1 image and we are making a
+grid of it and suppose horizontally we can fit only 10 images and vertically 25, so total Images
+must be 10x25 = 250 and written a text over each of this image about its indexing, Like for, a
+image at row 1 and column 3 should have text over it as (1, 3).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Game Features
+There are a lot of features in task which is explained below-
+- **Dynamic Mode** - Images must fill up the screen in both portrait and landscape mode. For Example - we have 10x25 Images in portrait mode then it must be 25x10 in landscape which must auto adjust when the user changes from portrait to landscape at runtime.
+- **Showing Images Length and Size** - A text should be there where you have to write, how many Images are there and what&#39;s the scale of a Image.
+- **Coloring Image**- Each Image must have different color which must be auto assigned when Images generate i.e each time when user refresh the game the Images color must be different.
